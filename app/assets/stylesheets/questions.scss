@@ -1,0 +1,52 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  padding: 3rem;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.user-question {
+  padding: 8px;
+  padding-left: 16px;
+  width: 95%;
+  margin: 16px auto;
+  border-left: 8px solid #DCDCDC;
+}
+
+.coach-answer {
+  background-color: #FDFFDF;
+  padding: 8px;
+  padding-left: 16px;
+  width: 95%;
+  margin: 16px auto;
+  border-left: 8px solid #DCDCDC;
+}
+
+.ask-button {
+  width: fit-content;
+  padding: 16px;
+  margin: 16px;
+}
+
+a {
+  text-decoration: none;
+  padding: 16px;
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
+
+#question-form {
+  display: flex;
+}
+
+#question-form .question-input {
+  width: 30rem;
+}
